@@ -15,7 +15,7 @@ jobs:
       - run: docker-compose up -d
       - run: 
           name: Push DB Schemas
-          command: yarn prisma db push
+          command: yarn prisma db push --schema prisma/schema.prisma
           # environment:
             # DATABASE_URL: postgresql://user:password@localhost:5432/mydb?schema=public
 
