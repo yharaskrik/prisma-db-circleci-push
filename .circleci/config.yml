@@ -16,8 +16,8 @@ jobs:
       - run: 
           name: Push DB Schemas
           command: yarn prisma db push
-          environment:
-            DATABASE_URL: postgresql://user:password@localhost:5432/mydb?schema=public
+          # environment:
+            # DATABASE_URL: postgresql://user:password@localhost:5432/mydb?schema=public
 
 
 # Orchestrate or schedule a set of jobs
