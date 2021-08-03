@@ -1,8 +1,12 @@
 {
+    "name": "prisma-db-circleci-push",
+    "version": "3.0.0",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yharaskrik/prisma-db-circleci-push.git"
+    },
     "dependencies": {
         "@prisma/client": "2.28.0"
-    },
-    "devDependencies": {
-        "prisma": "^2.28.0"
     }
 }
